@@ -1,0 +1,19 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+# * : 모든 문자
+# [*.{확장자 ... }] : 작성한 확장자 들에게 아래 코드를 적용하겠다.
+# indent_size : 탭 사이즈
+
+[*.{html, css}]
+indent_size = 2
